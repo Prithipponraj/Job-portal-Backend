@@ -4,34 +4,44 @@ This is the backend service for the Job Portal application. It provides API endp
 
 ### Installation
 
-1.Clone the repository:
+1. Clone the repository:
 
-git clone (https://github.com/Prithipponraj/Job-portal-Backend)
+    ```bash
+    git clone https://github.com/Prithipponraj/Job-portal-Backend
+    ```
 
-2.Navigate to the project directory:
+2. Navigate to the project directory:
 
-cd backend
+    ```bash
+    cd backend
+    ```
 
-3.Install dependencies:
+3. Install dependencies:
 
-npm install
+    ```bash
+    npm install
+    ```
 
-4.Create a .env file and add your environment variables:
+4. Create a `.env` file and add your environment variables:
 
-PORT=5000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+    ```bash
+    PORT=5000
+    MONGO_URI=your_mongodb_uri
+    JWT_SECRET=your_jwt_secret
+    CLOUDINARY_NAME=your_cloudinary_name
+    CLOUDINARY_API_KEY=your_cloudinary_api_key
+    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+    ```
 
 ### Usage
 
-1.Start the server:
+1. Start the server:
 
-npm start
+    ```bash
+    npm start
+    ```
 
-2.The server will be running on http://localhost:5000.
+2. The server will be running on `http://localhost:5000`.
 
 ## API Endpoints
 
@@ -99,16 +109,14 @@ You can import the following Postman collection to test all the API endpoints:
   "resume": "data:application/pdf;base64,JVBERi0xLjMKJcTl8uXrpO0",
   "skills": ["JavaScript", "React", "Node.js"]
 }
-
-
 ### User Login
+```json
 {
   "email": "johndoe@example.com",
   "password": "password123"
 }
-
 ### Update Profile
-
+```json
 {
   "name": "John Doe Updated",
   "email": "john.doe.updated@example.com",
@@ -116,8 +124,6 @@ You can import the following Postman collection to test all the API endpoints:
   "resume": "data:application/pdf;base64,JVBERi0xLjMKJcTl8uXrpO0",
   "skills": ["JavaScript", "React", "Node.js", "TypeScript"]
 }
-
-
 ### Contributing
 If you'd like to contribute to this project, please fork the repository and submit a pull request. Ensure that your code follows the existing style and includes tests for new features.
 

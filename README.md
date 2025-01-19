@@ -87,7 +87,7 @@ This is the backend service for the Job Portal application. It provides API endp
 
 You can import the following Postman collection to test all the API endpoints:
 
-[![Run in Postman](https://blue-eclipse-542604.postman.co/workspace/New-Team-Workspace~108cee49-a4e8-42e8-9ce1-350c02164619/collection/38651253-44b169af-4f46-43cc-be11-523ded94398a?action=share&creator=38651253)
+(https://blue-eclipse-542604.postman.co/workspace/New-Team-Workspace~108cee49-a4e8-42e8-9ce1-350c02164619/collection/38651253-44b169af-4f46-43cc-be11-523ded94398a?action=share&creator=38651253)
 
 ### Steps to Import Postman Collection
 1. Click the **Run in Postman** button above.
